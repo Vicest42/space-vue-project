@@ -1,6 +1,7 @@
 // src/services/NASAService.js
 import axios from 'axios';
 
+//como su nombre lo indica este archivo maneja la interacción directa con la API de la NASA
 
 const nasaApi = axios.create({
    baseURL: 'https://images-api.nasa.gov',
