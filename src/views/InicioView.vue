@@ -1,4 +1,7 @@
 <script setup>
+//En este archivo se ejecuta la vista de inicio la cual muestra los atros por columnas gracias a la clase grid de tailwindcss 
+// y con la función v-for se recorre el arrelgo de los astros que devuelve la API 
+
 import Astro from "@/components/Astro.vue";
 import {useAstrosStore} from "@/stores/astros.js";
 
