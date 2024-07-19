@@ -2,6 +2,9 @@
 import { useAstrosStore } from '@/stores/astros.js';
 import { computed } from "vue";
 
+//Este archivo renderiza lo que son las tarjetas de los astros, recorre el array obtenido de la API
+//y va mostrando la información
+
 const props = defineProps({
   astro: {
     type: Object,
