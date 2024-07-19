@@ -1,4 +1,7 @@
 <script setup>
+
+//Este archivo muestra lo que es el encabezado de la pagina, el cual contiene la imagen de fondo y el buscador
+
 import {computed} from "vue";
 import {RouterLink, useRoute} from "vue-router";
 import {useAstrosStore} from "@/stores/astros.js";

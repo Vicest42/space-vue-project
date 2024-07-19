@@ -1,4 +1,8 @@
 <script setup>
+
+/*En este archivo se renderiza la ventana modal, y se muestran la informacion de los astros
+obtenida de la API Solar System, asi como las imagenes obtenidas de la API NASA Image */
+
 import { computed, watch } from 'vue';
 import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue';
 import { useModalStore } from "@/stores/modal.js";
