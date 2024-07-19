@@ -1,5 +1,10 @@
 //NASA API
 // src/stores/astros.js
+
+/*Este archivo maneja la mayoria de la logica de la aplicación web, en esta se hacen las 
+funciones que interactuan con las API asi como la reactividad de la barra de busqueda 
+y categorias*/
+
 import { ref, reactive } from 'vue';
 import { defineStore } from 'pinia';
 import APIService from '@/services/APIService.js';
