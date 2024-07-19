@@ -29,24 +29,6 @@ const handleSubmit = () => {
             <img class="w-20" src="/img/shared/logo.svg" alt="logotipo" />
           </RouterLink>
         </div>
-
-        <nav class="flex gap-4">
-          <RouterLink
-              :to="{name: 'inicio'}"
-              class="text-white uppercase font-bold"
-              active-class="text-red-500"
-          >
-            Inicio
-          </RouterLink>
-
-          <RouterLink
-              :to="{name: 'catalogo'}"
-              class="text-white uppercase font-bold"
-              active-class="text-red-500"
-          >
-            Catálogo
-          </RouterLink>
-        </nav>
       </div>
 
       <form
